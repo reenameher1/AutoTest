@@ -1,5 +1,13 @@
 package com.test.automation.homePage;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -12,6 +20,8 @@ public class VerifyLoginWithValidCredentials extends TestBase{
 	
 	HomePage homePage;
 	
+	
+	@BeforeMethod
 	@BeforeClass
 	public void setUp(){
 		init();
@@ -23,7 +33,7 @@ public class VerifyLoginWithValidCredentials extends TestBase{
 		homePage.clickOnLogin();
 		homePage.loginToApp("test@test.luckyvoice.com", "Abcd1234");
 		
-		Assert.assertTrue(homePage.getValidLoginText().contains("Playlists"));	
+		AssertJUnit.assertTrue(homePage.getValidLoginText().contains("Playlists"));	
 	}
 	
 	@AfterClass

@@ -1,6 +1,15 @@
 package com.test.automation.settingsPage;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -17,13 +26,15 @@ public class VerifyPostCodePresent extends TestBase {
 	SingPage singPage;
 	SettingsPage settingsPage;
 	
+	
+	@BeforeMethod
 	@BeforeClass
 	public void setUp(){
 		init();
 	}
 	
 	@Test
-	public void verifyPostCodePresent(){
+	public void verifyPostCodePresent_Test(){
 		homePage = new HomePage(driver);
 		appPage = new AppPage(driver);
 		singPage = new SingPage(driver);
@@ -33,12 +44,14 @@ public class VerifyPostCodePresent extends TestBase {
 		homePage.loginToApp("test@test.luckyvoice.com", "Abcd1234");
 		singPage.clickOnAppTab();
 		appPage.clickOnUser();
-		String postcode;
-		Assert.assertEquals(settingsPage.getPostcode(postcode), "W1W 8DH");
+		String postcode = null;
+		AssertJUnit.assertEquals(settingsPage.getPostcode(postcode), "W1W 8DH");
 				
 	}
 	
-	
-	
+	@AfterClass
+	public void endTest(){
+		driver.close();
+	}
 
 }
