@@ -28,9 +28,16 @@ public class HomePage {
 	{
 		PageFactory.initElements(driver, this);
 	}
+	
+	public void clickOnLogin()
+	{
+		logIn.click();
+		
+	}
+	
 	public void loginToApp(String email, String password){
 		
-		logIn.click();
+		
 		emailId.sendKeys(email);
 		loginPassword.sendKeys(password);
 		submitButton.click();

@@ -20,6 +20,7 @@ public class VerifyLoginWithValidCredentials extends TestBase{
 	@Test
 	public void verifyLoginWithValidCredentials(){
 		homePage = new HomePage(driver);
+		homePage.clickOnLogin();
 		homePage.loginToApp("test@test.luckyvoice.com", "Abcd1234");
 		
 		Assert.assertTrue(homePage.getValidLoginText().contains("Playlists"));	
