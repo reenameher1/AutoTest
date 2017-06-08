@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.test.automation.settingsPage.VerifyPostCodePresent">
-        <methods>
-          <include name="verifyPostCodePresent_Test"/>
-        </methods>
-      </class> <!-- com.test.automation.settingsPage.VerifyPostCodePresent -->
       <class name="com.test.automation.homePage.VerifyLoginWithValidCredentials">
         <methods>
           <include name="verifyLoginWithValidCredentials"/>
@@ -15,4 +10,4 @@
       </class> <!-- com.test.automation.homePage.VerifyLoginWithValidCredentials -->
     </classes>
   </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+</suite> <!-- Failed suite [Suite] -->

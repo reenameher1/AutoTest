@@ -46,6 +46,7 @@ public class VerifyPostCodePresent extends TestBase {
 		appPage.clickOnUser();
 		String postcode = null;
 		AssertJUnit.assertEquals(settingsPage.getPostcode(postcode), "W1W 8DH");
+		appPage.clickOnLogout();
 				
 	}
 	

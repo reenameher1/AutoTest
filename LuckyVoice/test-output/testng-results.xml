@@ -1,125 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="2" total="4" passed="0">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="96" started-at="2017-06-07T21:07:32Z" finished-at="2017-06-07T21:07:32Z">
+  <suite name="Suite" duration-ms="60" started-at="2017-06-08T07:05:33Z" finished-at="2017-06-08T07:05:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="96" started-at="2017-06-07T21:07:32Z" finished-at="2017-06-07T21:07:32Z">
-      <class name="com.test.automation.settingsPage.VerifyPostCodePresent">
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.test.automation.settingsPage.VerifyPostCodePresent@3ffc5af1]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-07T22:07:32Z" finished-at="2017-06-07T22:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.test.automation.settingsPage.VerifyPostCodePresent@3ffc5af1]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-07T22:07:32Z" finished-at="2017-06-07T22:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyPostCodePresent_Test()[pri:0, instance:com.test.automation.settingsPage.VerifyPostCodePresent@3ffc5af1]" name="verifyPostCodePresent_Test" duration-ms="8" started-at="2017-06-07T22:07:32Z" finished-at="2017-06-07T22:07:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method launchapp but has not been marked @Optional or defined
-in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1378016883/testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method launchapp but has not been marked @Optional or defined
-in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1378016883/testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPostCodePresent_Test -->
-        <test-method status="SKIP" signature="endTest()[pri:0, instance:com.test.automation.settingsPage.VerifyPostCodePresent@3ffc5af1]" name="endTest" is-config="true" duration-ms="0" started-at="2017-06-07T22:07:32Z" finished-at="2017-06-07T22:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.settingsPage.VerifyPostCodePresent -->
+    <test name="Default test" duration-ms="60" started-at="2017-06-08T07:05:33Z" finished-at="2017-06-08T07:05:33Z">
       <class name="com.test.automation.homePage.VerifyLoginWithValidCredentials">
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.test.automation.homePage.VerifyLoginWithValidCredentials@5e5792a0]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-07T22:07:32Z" finished-at="2017-06-07T22:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.test.automation.homePage.VerifyLoginWithValidCredentials@5e5792a0]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-07T22:07:32Z" finished-at="2017-06-07T22:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="verifyLoginWithValidCredentials()[pri:0, instance:com.test.automation.homePage.VerifyLoginWithValidCredentials@5e5792a0]" name="verifyLoginWithValidCredentials" duration-ms="1" started-at="2017-06-07T22:07:32Z" finished-at="2017-06-07T22:07:32Z">
+        <test-method status="FAIL" signature="launchapp(java.lang.String)[pri:0, instance:com.test.automation.homePage.VerifyLoginWithValidCredentials@14acaea5]" name="launchapp" is-config="true" duration-ms="0" started-at="2017-06-08T08:05:33Z" finished-at="2017-06-08T08:05:33Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeTest on method launchapp but has not been marked @Optional or defined
-in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1378016883/testng-customsuite.xml]]>
+in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1056554735/testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeTest on method launchapp but has not been marked @Optional or defined
-in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1378016883/testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
-	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method status="SKIP" signature="endTest()[pri:0, instance:com.test.automation.homePage.VerifyLoginWithValidCredentials@5e5792a0]" name="endTest" is-config="true" duration-ms="0" started-at="2017-06-07T22:07:32Z" finished-at="2017-06-07T22:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- com.test.automation.homePage.VerifyLoginWithValidCredentials -->
-      <class name="com.test.automation.testBase.TestBase">
-        <test-method status="FAIL" signature="launchapp(java.lang.String)[pri:0, instance:com.test.automation.testBase.TestBase@29774679]" name="launchapp" is-config="true" duration-ms="0" started-at="2017-06-07T22:07:32Z" finished-at="2017-06-07T22:07:32Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method launchapp but has not been marked @Optional or defined
-in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1378016883/testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method launchapp but has not been marked @Optional or defined
-in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1378016883/testng-customsuite.xml
+in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1056554735/testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
@@ -146,7 +44,56 @@ in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-13780
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchapp -->
-      </class> <!-- com.test.automation.testBase.TestBase -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.test.automation.homePage.VerifyLoginWithValidCredentials@14acaea5]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-08T08:05:33Z" finished-at="2017-06-08T08:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.test.automation.homePage.VerifyLoginWithValidCredentials@14acaea5]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-08T08:05:33Z" finished-at="2017-06-08T08:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="verifyLoginWithValidCredentials()[pri:0, instance:com.test.automation.homePage.VerifyLoginWithValidCredentials@14acaea5]" name="verifyLoginWithValidCredentials" duration-ms="7" started-at="2017-06-08T08:05:33Z" finished-at="2017-06-08T08:05:33Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeTest on method launchapp but has not been marked @Optional or defined
+in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1056554735/testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeTest on method launchapp but has not been marked @Optional or defined
+in /private/var/folders/3s/6f7kgjss01x7td3vpnvp5y4w0000gn/T/testng-eclipse-1056554735/testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:203)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method status="SKIP" signature="endTest()[pri:0, instance:com.test.automation.homePage.VerifyLoginWithValidCredentials@14acaea5]" name="endTest" is-config="true" duration-ms="0" started-at="2017-06-08T08:05:33Z" finished-at="2017-06-08T08:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.test.automation.homePage.VerifyLoginWithValidCredentials -->
     </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -20,6 +20,9 @@ public class AppPage extends TestBase{
 	@FindBy(css="#nav-account>span")
 	WebElement User;
 	
+	@FindBy(css=".btn.btn-salmon")
+	WebElement Logout;
+	
 	public AppPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
@@ -27,6 +30,10 @@ public class AppPage extends TestBase{
 	
 	public void clickOnUser(){
 		User.click();
+	}
+	
+	public void clickOnLogout(){
+		Logout.click();
 	}
 
 }
