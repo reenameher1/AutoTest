@@ -28,13 +28,13 @@ public class VerifyLoginWithValidCredentials extends TestBase{
 		init();
 	}
 	
-	@Test
+	@Test(priority = 1, description="This test case will verify login functionality")
 	public void verifyLoginWithValidCredentials(){
 		homePage = new HomePage(driver);
 		homePage.clickOnLogin();
-		homePage.loginToApp("test@test.luckyvoice.com", "Abcd1234");
+		homePage.loginToApp("test@test.luckyvoice.com", "********");
 		
-		AssertJUnit.assertTrue(homePage.getValidLoginText().contains("Playlists"));	
+		Assert.assertTrue(homePage.getValidLoginText().contains("Playlists"));	
 	}
 	
 	@AfterClass

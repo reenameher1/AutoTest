@@ -33,7 +33,7 @@ public class VerifyPostCodePresent extends TestBase {
 		init();
 	}
 	
-	@Test
+	@Test(priority = 2, description= "This test case will verify Postcode")
 	public void verifyPostCodePresent_Test(){
 		homePage = new HomePage(driver);
 		appPage = new AppPage(driver);
@@ -45,7 +45,7 @@ public class VerifyPostCodePresent extends TestBase {
 		singPage.clickOnAppTab();
 		appPage.clickOnUser();
 		String postcode = null;
-		AssertJUnit.assertEquals(settingsPage.getPostcode(postcode), "W1W 8DH");
+		Assert.assertEquals(settingsPage.getPostcode(postcode), "W1W 8DH");
 		appPage.clickOnLogout();
 				
 	}

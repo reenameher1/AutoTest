@@ -83,8 +83,9 @@ public class TestBase {
 	
 	
 	
-	@Parameters("browser")
+	
 	@BeforeTest
+	@Parameters("browser")
 	public void launchapp(String browser) throws MalformedURLException {
 
 		if (System.getProperty("os.name").contains("Mac")) {
